@@ -3,7 +3,7 @@ import Header from '../Header/Header'
 import './App.css'
 import HomePage from "../HomePage/HomePage";
 import { getTwoPlayerGames } from '../../Api-Calls'
-import {Switch, Route} from 'react-router-dom'
+import {Router, Switch, Route} from 'react-router-dom'
 import DuoGamesPage from "../DuoGamePage/DuoGame";
 
 const App = () => {
@@ -13,16 +13,21 @@ const App = () => {
 
   useEffect(()=> {
     getTwoPlayerGames()
-    .then(data => setTwoPlayers(data))
-  })
+    .then(data => setTwoPlayers(data.games))
+  },[])
 
+    console.log(twoPlayers, "twoplayers");
   return (
     <div className="App">
-        <Header/>
-        <Switch>
-          <Route exact path="/" component={HomePage} />
-          <Route exact path ="/duo-games" twoPlayers={twoPlayers} component = {DuoGamesPage}/>
-        </Switch>
+      <Header />
+      <Switch>
+        <Route exact path="/" component={HomePage} />
+        <Route
+          exact
+          path="/duo-games"
+          render={() => <DuoGamesPage twoPlayers={twoPlayers}/>}
+        />
+      </Switch>
     </div>
   );
 }
