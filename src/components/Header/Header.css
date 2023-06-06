@@ -1,0 +1,12 @@
+.header-section {
+    display:flex;
+    height: 10em;
+    background-color: black;
+    align-items: center;justify-content: center;
+}
+
+.header-image {
+    display:flex;
+    height: 10em;
+}
+
