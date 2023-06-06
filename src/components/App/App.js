@@ -1,13 +1,28 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Header from '../Header/Header'
 import './App.css'
 import HomePage from "../HomePage/HomePage";
+import { getTwoPlayerGames } from '../../Api-Calls'
+import {Switch, Route} from 'react-router-dom'
+import DuoGamesPage from "../DuoGamePage/DuoGame";
 
-function App() {
+const App = () => {
+  const[twoPlayers, setTwoPlayers] = useState([])
+  const[error, setError] = useState('')
+  const[selectedGameType, setSelectedGameType] = useState([])
+
+  useEffect(()=> {
+    getTwoPlayerGames()
+    .then(data => setTwoPlayers(data))
+  })
+
   return (
     <div className="App">
         <Header/>
-        <HomePage/>
+        <Switch>
+          <Route exact path="/" component={HomePage} />
+          <Route exact path ="/duo-games" twoPlayers={twoPlayers} component = {DuoGamesPage}/>
+        </Switch>
     </div>
   );
 }
