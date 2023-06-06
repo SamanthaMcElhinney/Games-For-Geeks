@@ -1,3 +1,62 @@
+.home-page-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height:100vh;
+    width:100vw;
+}
+
+.slogan-container{
+    display:flex;
+    justify-content: center;
+}
+
 .slogan{
-    color:white;
+    color:#c79cdb;
+}
+
+.game-type-container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 100px;
+    height:20rem;
+    width:60rem;
+    margin-top:3%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.solo{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #FFAFCC;
+}
+
+.duo{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #CD84DB;
+}
+
+.party{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #A2D2FF;
+}
+
+.title-solo{
+    background-color: #FFAFCC;
+    color:black;
+}
+
+.title-duo{
+    background-color: #CD84DB;
+     color:black;
+}
+
+.title-party{
+    background-color: #A2D2FF;
 }
