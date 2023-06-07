@@ -1,0 +1,38 @@
+.game-card{
+     background-color: white;
+     color:black;
+     display:flex;
+     flex-direction: column;
+     height: 100%;
+     width:100%;
+     border-radius: 2px;
+     position: relative;
+     margin: 5px;  
+     align-items: center;
+}
+
+.title-container {
+     background-color: white;
+     height:9vh;
+}
+
+.game-title{
+     background-color:white;
+     justify-content: center;
+     text-align: center;
+}
+
+.game-image{
+     background-color: white;
+     height:25vh;
+     width:90%;
+}
+
+.game-rating{
+     font-weight: bolder;
+}
+
+.game-rating, .game-playtime{
+     background-color: white;
+     margin:.5em;
+}

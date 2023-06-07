@@ -1,13 +1,13 @@
 import React from "react";
-import "./DuoGame.css";
+import "./SingleGamePage.css";
 import GameCard from "../GameCard/GameCard";
 
-const DuoGamesPage = ({ twoPlayers}) => { 
-  if (!twoPlayers) {
+const SingleGamePage = ({ singlePlayer }) => {
+  if (!singlePlayer) {
     return <p>Please hang tight while we find your games..</p>;
   }
 
-  const cards = twoPlayers.map((game) => {
+  const cards = singlePlayer.map((game) => {
     const ratingNum = game.average_user_rating;
     return (
       <GameCard
@@ -24,4 +24,4 @@ const DuoGamesPage = ({ twoPlayers}) => {
   return <div className="card-container">{cards}</div>;
 };
 
-export default DuoGamesPage;
+export default SingleGamePage;

@@ -37,6 +37,7 @@
     text-align: center;
     background-color: #FFAFCC;
     align-items: center;
+    border-radius: 8px;
 }
 
 .duo{
@@ -44,7 +45,8 @@
     flex-direction: column;
     text-align: center;
     background-color: #CD84DB;
-      align-items: center;
+    align-items: center;
+    border-radius: 8px;
 }
 
 .party{
@@ -52,7 +54,8 @@
     flex-direction: column;
     text-align: center;
     background-color: #A2D2FF;
-      align-items: center;
+    align-items: center;
+    border-radius: 8px;
 }
 
 .title-solo{
