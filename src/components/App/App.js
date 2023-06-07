@@ -43,10 +43,10 @@ const App = () => {
           path="/game/:id"
           render={({ match }) => {
             const gameId = match.params.id;
-            const game = twoPlayers.find((game) => game.id === gameId);
-            if (!game) {
-              return <p>Game not found</p>;
-            }
+            const game =
+              twoPlayers.find((game) => game.id === gameId) ||
+              groupPlayers.find((game) => game.id === gameId) ||
+              singlePlayer.find((game) => game.id === gameId);
             return <GameDetails game={game} />;
           }}
         />
