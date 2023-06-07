@@ -2,7 +2,7 @@ import React from "react";
 import "./DuoGame.css";
 import GameCard from "../GameCard/GameCard";
 
-const DuoGamesPage = ({ twoPlayers }) => {
+const DuoGamesPage = ({ twoPlayers}) => { 
   if (!twoPlayers) {
     return <p>Please hang tight while we find your games..</p>;
   }
@@ -16,11 +16,12 @@ const DuoGamesPage = ({ twoPlayers }) => {
         image={game.images.small}
         rating={ratingNum.toFixed(2)}
         playTime={game.playtime}
+        id={game.id}
       />
     );
   });
 
-  return <div>{cards}</div>;
+  return <div className="card-container">{cards}</div>;
 };
 
 export default DuoGamesPage;
