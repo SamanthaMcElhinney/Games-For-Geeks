@@ -20,23 +20,30 @@ return (
       </h2>
     </div>
     <div className="game-type-container">
-      <section className="solo" onClick={() => handleGameTypeSelection("solo")}>
-        <h3 className="title-solo">Solo</h3>
-        <img className="dice-1" src={Dice1} alt="single dice" />
-      </section>
-      <Link to="/duo-games" >
-      <section className="duo" onClick={() => handleGameTypeSelection("duo")}>
-        <h3 className="title-duo">Duo</h3>
-        <img className="dice-2" src={Dice2} alt="single dice" />
-      </section>
+      <Link to="/single-game">
+        <section
+          className="solo"
+          onClick={() => handleGameTypeSelection("solo")}
+        >
+          <h3 className="title-solo">Solo</h3>
+          <img className="dice-1" src={Dice1} alt="single dice" />
+        </section>
       </Link>
-      <section
-        className="party"
-        onClick={() => handleGameTypeSelection("party")}
-      >
-        <h3 className="title-party">Party</h3>
-        <img className="dice-3" src={Dice3} alt="single dice" />
-      </section>
+      <Link to="/duo-games">
+        <section className="duo" onClick={() => handleGameTypeSelection("duo")}>
+          <h3 className="title-duo">Duo</h3>
+          <img className="dice-2" src={Dice2} alt="single dice" />
+        </section>
+      </Link>
+      <Link to="/group-games">
+        <section
+          className="party"
+          onClick={() => handleGameTypeSelection("party")}
+        >
+          <h3 className="title-party">Party</h3>
+          <img className="dice-3" src={Dice3} alt="single dice" />
+        </section>
+      </Link>
     </div>
   </section>
 );
