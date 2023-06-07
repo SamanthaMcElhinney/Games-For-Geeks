@@ -16,6 +16,7 @@ const SingleGamePage = ({ singlePlayer }) => {
         image={game.images.small}
         rating={ratingNum.toFixed(2)}
         playTime={game.playtime}
+        id={game.id}
       />
     );
   });
