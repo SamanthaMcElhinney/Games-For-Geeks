@@ -6,6 +6,7 @@ import {getGames} from "../../Api-Calls";
 import {Switch, Route} from 'react-router-dom'
 import Games from "../Games/Games"
 import GameDetails from "../GameDetails/GameDetails";
+import Error from "../Error/Error";
 
 const App = () => {
   const [twoPlayers, setTwoPlayers] = useState([]);
@@ -104,6 +105,7 @@ useEffect(() => {
             />
           )}
         />
+        <Route path="*" render={() => <Error />} />
       </Switch>
     </div>
   );
