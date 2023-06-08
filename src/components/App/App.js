@@ -16,15 +16,29 @@ const App = () => {
   const [favorites, setFavorites] = useState([]);
 
 useEffect(() => {
-  getGames(1).then((data) => {
-    setSinglePlayer(data.games);
-  });
-  getGames(2).then((data) => {
-    setTwoPlayers(data.games);
-  });
-  getGames(3).then((data) => {
-    setGroupPlayers(data.games);
-  });
+  getGames(1)
+    .then((data) => {
+      setSinglePlayer(data.games);
+    })
+    .catch((error) => {
+      setError(error);
+    });
+
+  getGames(2)
+    .then((data) => {
+      setTwoPlayers(data.games);
+    })
+    .catch((error) => {
+      setError(error);
+    });
+
+  getGames(3)
+    .then((data) => {
+      setGroupPlayers(data.games);
+    })
+    .catch((error) => {
+      setError(error);
+    });
 }, []);
 
   const favoriteGames = (id) => {
@@ -44,6 +58,15 @@ useEffect(() => {
     console.log(favorites, "line 43")
   }
 
+  if(error){
+    return (
+    <div>
+      <Header />
+      <h1 className="error-message">{`Sorry we are having issues with our server right now:${error.message}!`}</h1>
+      <h1 className="error-message">{"Please try again"}</h1>
+    </div>
+    )
+  }
   return (
     <div className="App">
       <Header />
