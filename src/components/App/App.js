@@ -2,15 +2,9 @@ import React, { useEffect, useState } from "react";
 import Header from '../Header/Header'
 import './App.css'
 import HomePage from "../HomePage/HomePage";
-import {
-  getTwoPlayerGames,
-  getPartyGames,
-  getSingleGames,
-} from "../../Api-Calls";
-import {Router, Switch, Route} from 'react-router-dom'
-import DuoGamesPage from "../DuoGamePage/DuoGame";
-import GroupGamePage from "../GroupGamePage/GroupGamePage";
-import SingleGamePage from "../SingleGamePage/SingleGamePage";
+import {getGames} from "../../Api-Calls";
+import {Switch, Route} from 'react-router-dom'
+import Games from "../Games/Games"
 import GameDetails from "../GameDetails/GameDetails";
 
 const App = () => {
@@ -18,26 +12,53 @@ const App = () => {
   const [error, setError] = useState("");
   const [groupPlayers, setGroupPlayers] = useState([]);
   const [singlePlayer, setSinglePlayer] = useState([]);
+  const [favorites, setFavorites] = useState([]);
 
-  useEffect(() => {
-    getTwoPlayerGames().then((data) => {
-      setTwoPlayers(data.games);
-    });
-  }, []);
+useEffect(() => {
+  getGames(1).then((data) => {
+    setSinglePlayer(data.games);
+  });
+  getGames(2).then((data) => {
+    setTwoPlayers(data.games);
+  });
+  getGames(3).then((data) => {
+    setGroupPlayers(data.games);
+  });
+}, []);
 
-  useEffect(() => {
-    getPartyGames().then((data) => setGroupPlayers(data.games));
-  }, []);
+  const favoriteGames = (id) => {
+    const game =
+      twoPlayers.find((game) => game.id === id) ||
+      groupPlayers.find((game) => game.id === id) ||
+      singlePlayer.find((game) => game.id === id);
+    if (game) {
+      setFavorites([...favorites, game]);
+    }
+    console.log(favorites, "favorites line 37")
+  };
 
-  useEffect(() => {
-    getSingleGames().then((data) => setSinglePlayer(data.games));
-  }, []);
+  const unfavoriteGames = (id) => {
+    const favoritesArray = favorites.filter(game => game.id !== id)
+    setFavorites(favoritesArray)
+    console.log(favorites, "line 43")
+  }
 
   return (
     <div className="App">
       <Header />
       <Switch>
         <Route exact path="/" component={HomePage} />
+        <Route
+          exact
+          path="/favorites"
+          render={() => (
+            <Games
+              games={favorites}
+              favoriteGames={favoriteGames}
+              unfavoriteGames={unfavoriteGames}
+            />
+          )}
+        />
         <Route
           exact
           path="/game/:id"
@@ -52,18 +73,36 @@ const App = () => {
         />
         <Route
           exact
+          path="/single-game"
+          render={() => (
+            <Games
+              games={singlePlayer}
+              favoriteGames={favoriteGames}
+              unfavoriteGames={unfavoriteGames}
+            />
+          )}
+        />
+        <Route
+          exact
           path="/duo-games"
-          render={() => <DuoGamesPage twoPlayers={twoPlayers} />}
+          render={() => (
+            <Games
+              games={twoPlayers}
+              favoriteGames={favoriteGames}
+              unfavoriteGames={unfavoriteGames}
+            />
+          )}
         />
         <Route
           exact
           path="/group-games"
-          render={() => <GroupGamePage groupPlayers={groupPlayers} />}
-        />
-        <Route
-          exact
-          path="/single-game"
-          render={() => <SingleGamePage singlePlayer={singlePlayer} />}
+          render={() => (
+            <Games
+              games={groupPlayers}
+              favoriteGames={favoriteGames}
+              unfavoriteGames={unfavoriteGames}
+            />
+          )}
         />
       </Switch>
     </div>

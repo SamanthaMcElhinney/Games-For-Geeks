@@ -1,7 +1,0 @@
-.card-container{
-    display:grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-column-gap: 5%;
-    /* margin-left:1%;
-    margin-right:1%; */
-}

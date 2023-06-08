@@ -21,7 +21,7 @@
     display:grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 100px;
-    height:20rem;
+    height:25rem;
     width:60rem;
     margin-top:3%;
     margin-left: 15%;
@@ -31,51 +31,44 @@
     font-size:larger;
 }
 
-.solo{
+.solo, .duo, .party {
     display:flex;
     flex-direction: column;
     text-align: center;
-    background-color: #FFAFCC;
     align-items: center;
     border-radius: 8px;
+    height: 20rem;
+}
+
+.solo{
+    background-color: #FFAFCC;
 }
 
 .duo{
-    display:flex;
-    flex-direction: column;
-    text-align: center;
     background-color: #CD84DB;
-    align-items: center;
-    border-radius: 8px;
 }
 
 .party{
-    display:flex;
-    flex-direction: column;
-    text-align: center;
     background-color: #A2D2FF;
-    align-items: center;
-    border-radius: 8px;
+    color:black;
+}
+
+.title-solo, .title-duo, .title-party {
+    color:black;
+    font-size: 2rem;
+    margin-bottom: .25rem;
 }
 
 .title-solo{
     background-color: #FFAFCC;
-    color:black;
-        font-size: 2rem;
-          margin-bottom: .25rem;
 }
 
 .title-duo{
     background-color: #CD84DB;
-     color:black;
-     font-size: 2rem;
-     margin-bottom: .25rem;
 }
 
 .title-party{
     background-color: #A2D2FF;
-        font-size: 2rem;
-        margin-bottom: .25rem;
 }
 
 .dice-1, .dice-2, .dice-3{
@@ -88,3 +81,62 @@
 .party:hover .dice-3 {
   transform: translateY(-10px);
 }
+
+.link-no-underline {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 55em){
+
+    .game-type-container{
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 60px;
+        height: 30rem;
+        width: 45vw;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .slogan-container{
+        margin-left:10%;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .game-type-container {
+        grid-gap: 60px;
+        height: 30rem;
+        width: 45vw;
+        margin-left: 30%;
+        margin-right:30%;
+    }
+
+    .dice-1, .dice-2, .dice-3 {
+        height:250px;
+        width: 200px;
+    }
+
+       .slogan-container{
+        margin-left:0%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+     .game-type-container {
+        grid-gap: 100px;
+        height: 30rem;
+        width: 60vw;
+        margin-left: 20%;
+    }
+
+    .dice-1, .dice-2, .dice-3 {
+        height:250px;
+        width: 200px;
+    }
+
+       .slogan-container{
+        margin-left: -10%;
+    }
+}
+
