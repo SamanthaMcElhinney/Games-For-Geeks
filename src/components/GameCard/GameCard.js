@@ -1,6 +1,6 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import "./GameCard.css"
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 export default function GameCard({
   title,
@@ -11,6 +11,7 @@ export default function GameCard({
   favoriteGames,
   unfavoriteGames,
 }) {
+  const location = useLocation()
   const [isFavorite, setFavorite] = useState(false);
 
   const toggleFavorites = (event) => {
@@ -23,13 +24,17 @@ export default function GameCard({
     setFavorite(!isFavorite);
   };
 
+  useEffect(()=> {
+    setFavorite(location.pathname === '/favorites')
+  },[location])
+
   return (
     <Link key={id} to={`/game/${id}`} className="link-no-underline">
       <div className="game-card">
         <div className="title-container">
           <h3 className="game-title">{title}</h3>
         </div>
-        <img className="game-image" src={image} />
+        <img className="game-image" src={image} alt={title} />
         <button className="favorite-button" onClick={toggleFavorites}>
           {isFavorite ? "💜" : "♡"}
         </button>
