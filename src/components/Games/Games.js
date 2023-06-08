@@ -3,12 +3,13 @@ import "./Games.css";
 import GameCard from "../GameCard/GameCard";
 import favs from "../../assets/show-favs.png";
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
 const Games= ({ games, favoriteGames, unfavoriteGames }) => {
   const [showFavorites, setShowFavorites] = useState(false);
 
   if (!games) {
-    return <p>Please hang tight while we find your games..</p>;
+    return <p className="error-message">Please hang tight while we find your games..</p>;
   }
 
   const cards = games.map((game) => {
@@ -28,8 +29,17 @@ const Games= ({ games, favoriteGames, unfavoriteGames }) => {
   });
 
   const handleShowFavorites = () => {
-    setShowFavorites(!showFavorites)
-  }
+    if (favoriteGames.length === 0) {
+      return (
+        <h1 className="error-message">
+          Sorry, you don't have any favorites saved yet! Get to playing those
+          games.
+        </h1>
+      );
+    } else {
+      setShowFavorites(!showFavorites);
+    }
+  };
 
   return (
     <Link to={"/favorites"} className="link-no-underline">
@@ -43,6 +53,20 @@ const Games= ({ games, favoriteGames, unfavoriteGames }) => {
       </div>
     </Link>
   );
+};
+
+Games.propTypes = {
+  games: PropTypes.arrayOf(
+    PropTypes.shape({
+      title: PropTypes.string.isRequired,
+      image: PropTypes.string.isRequired,
+      rating: PropTypes.number.isRequired,
+      id: PropTypes.string.isRequired,
+      playTime: PropTypes.string.isRequired,
+    }).isRequired
+  ),
+  favoriteGames: PropTypes.func.isRequired,
+  unfavoriteGames: PropTypes.func.isRequired,
 };
 
 export default Games;
