@@ -6,6 +6,7 @@ import {getGames} from "../../Api-Calls";
 import {Switch, Route} from 'react-router-dom'
 import Games from "../Games/Games"
 import GameDetails from "../GameDetails/GameDetails";
+import Error from "../Error/Error";
 
 const App = () => {
   const [twoPlayers, setTwoPlayers] = useState([]);
@@ -15,15 +16,29 @@ const App = () => {
   const [favorites, setFavorites] = useState([]);
 
 useEffect(() => {
-  getGames(1).then((data) => {
-    setSinglePlayer(data.games);
-  });
-  getGames(2).then((data) => {
-    setTwoPlayers(data.games);
-  });
-  getGames(3).then((data) => {
-    setGroupPlayers(data.games);
-  });
+  getGames(1)
+    .then((data) => {
+      setSinglePlayer(data.games);
+    })
+    .catch((error) => {
+      setError(error);
+    });
+
+  getGames(2)
+    .then((data) => {
+      setTwoPlayers(data.games);
+    })
+    .catch((error) => {
+      setError(error);
+    });
+
+  getGames(3)
+    .then((data) => {
+      setGroupPlayers(data.games);
+    })
+    .catch((error) => {
+      setError(error);
+    });
 }, []);
 
   const favoriteGames = (id) => {
@@ -34,15 +49,22 @@ useEffect(() => {
     if (game && !favorites.find(fav => fav.id === id)) {
       setFavorites([...favorites, game]);
     }
-    console.log(favorites, "favorites line 37")
   };
 
   const unfavoriteGames = (id) => {
     const favoritesArray = favorites.filter(game => game.id !== id)
     setFavorites(favoritesArray)
-    console.log(favorites, "line 43")
   }
 
+  if(error){
+    return (
+    <div>
+      <Header />
+      <h1 className="error-message">{`Sorry we are having issues with our server right now:${error.message}!`}</h1>
+      <h1 className="error-message">{"Please try again"}</h1>
+    </div>
+    )
+  }
   return (
     <div className="App">
       <Header />
@@ -104,6 +126,7 @@ useEffect(() => {
             />
           )}
         />
+        <Route path="*" render={() => <Error />} />
       </Switch>
     </div>
   );
