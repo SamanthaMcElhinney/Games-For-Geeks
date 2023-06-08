@@ -13,10 +13,11 @@
 
 .title-container {
      background-color: white;
-     height:9vh;
+     height:10vh;
 }
 
 .game-title{
+     margin-top: 2em;
      background-color:white;
      justify-content: center;
      text-align: center;
@@ -24,6 +25,7 @@
 
 .game-image{
      background-color: white;
+     margin-top: -.75em;
      height:25vh;
      width:90%;
 }
@@ -36,3 +38,15 @@
      background-color: white;
      margin:.5em;
 }
+
+.favorite-button {
+     background-color: white;
+     position: absolute;
+  top: .1em;
+  right: .1em;
+   cursor: pointer;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 1.5em;
+}
+

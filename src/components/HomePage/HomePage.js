@@ -4,7 +4,7 @@ import Dice1 from "../../assets/Dice1.png";
 import Dice2 from "../../assets/Dice2.png";
 import Dice3 from "../../assets/Dice3.png";
 import { Link } from 'react-router-dom';
-import DuoGamesPage from '../DuoGamePage/DuoGame';
+
 
 const HomePage = () => {
     const [selectedGameType, setSelectedGameType] = useState("")
@@ -20,7 +20,7 @@ return (
       </h2>
     </div>
     <div className="game-type-container">
-      <Link to="/single-game">
+      <Link to="/single-game" className="link-no-underline">
         <section
           className="solo"
           onClick={() => handleGameTypeSelection("solo")}
@@ -29,13 +29,13 @@ return (
           <img className="dice-1" src={Dice1} alt="single dice" />
         </section>
       </Link>
-      <Link to="/duo-games">
+      <Link to="/duo-games" className="link-no-underline">
         <section className="duo" onClick={() => handleGameTypeSelection("duo")}>
           <h3 className="title-duo">Duo</h3>
           <img className="dice-2" src={Dice2} alt="single dice" />
         </section>
       </Link>
-      <Link to="/group-games">
+      <Link to="/group-games" className="link-no-underline">
         <section
           className="party"
           onClick={() => handleGameTypeSelection("party")}
