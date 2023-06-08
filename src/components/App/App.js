@@ -31,7 +31,7 @@ useEffect(() => {
       twoPlayers.find((game) => game.id === id) ||
       groupPlayers.find((game) => game.id === id) ||
       singlePlayer.find((game) => game.id === id);
-    if (game) {
+    if (game && !favorites.find(fav => fav.id === id)) {
       setFavorites([...favorites, game]);
     }
     console.log(favorites, "favorites line 37")
