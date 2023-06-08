@@ -49,13 +49,11 @@ useEffect(() => {
     if (game && !favorites.find(fav => fav.id === id)) {
       setFavorites([...favorites, game]);
     }
-    console.log(favorites, "favorites line 37")
   };
 
   const unfavoriteGames = (id) => {
     const favoritesArray = favorites.filter(game => game.id !== id)
     setFavorites(favoritesArray)
-    console.log(favorites, "line 43")
   }
 
   if(error){

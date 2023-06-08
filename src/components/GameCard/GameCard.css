@@ -1,30 +1,30 @@
 .game-card{
-     background-color: white;
+     background-color: whitesmoke;
      color:black;
      display:flex;
      flex-direction: column;
      height: 100%;
      width:100%;
-     border-radius: 2px;
+     border-radius: 6px;
      position: relative;
      margin: 5px;  
      align-items: center;
 }
 
 .title-container {
-     background-color: white;
+     background-color:whitesmoke;
      height:10vh;
 }
 
 .game-title{
      margin-top: 2em;
-     background-color:white;
+     background-color:whitesmoke;
      justify-content: center;
      text-align: center;
 }
 
 .game-image{
-     background-color: white;
+     background-color:whitesmoke;
      margin-top: -.75em;
      height:25vh;
      width:90%;
@@ -35,18 +35,18 @@
 }
 
 .game-rating, .game-playtime{
-     background-color: white;
+     background-color: whitesmoke;
      margin:.5em;
 }
 
 .favorite-button {
-     background-color: white;
+     background-color:whitesmoke;
      position: absolute;
-  top: .1em;
-  right: .1em;
-   cursor: pointer;
-  border: 1px solid white;
-  border-radius: 5px;
-  font-size: 1.5em;
+     top: .1em;
+     right: .1em;
+     cursor: pointer;
+      border: 1px solid whitesmoke;
+      border-radius: 5px;
+     font-size: 1.5em;
 }
 
