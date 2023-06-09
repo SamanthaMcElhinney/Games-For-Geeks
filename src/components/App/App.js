@@ -41,7 +41,6 @@ useEffect(() => {
     });
 }, []);
 
-console.log(singlePlayer, "single player data")
   const favoriteGames = (id) => {
     const game =
       twoPlayers.find((game) => game.id === id) ||

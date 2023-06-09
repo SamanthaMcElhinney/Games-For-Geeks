@@ -7,46 +7,53 @@ import { Link } from 'react-router-dom';
 
 
 const HomePage = () => {
-    const [selectedGameType, setSelectedGameType] = useState("")
-    const handleGameTypeSelection = (gameType) => {
-        setSelectedGameType(gameType)
-    }
+  const [selectedGameType, setSelectedGameType] = useState("");
+  const handleGameTypeSelection = (gameType) => {
+    setSelectedGameType(gameType);
+  };
 
-return (
-  <section className="home-page-container">
-    <div className="slogan-container">
-      <h2 className="slogan">
-        Unlock the Fun: Select Your Board Game Adventure!
-      </h2>
-    </div>
-    <div className="game-type-container">
-      <Link to="/single-game" className="link-no-underline">
-        <section
-          className="solo"
-          onClick={() => handleGameTypeSelection("solo")}
-        >
-          <h3 className="title-solo">Solo</h3>
-          <img className="dice-1" src={Dice1} alt="single dice" />
-        </section>
-      </Link>
-      <Link to="/duo-games" className="link-no-underline">
-        <section className="duo" onClick={() => handleGameTypeSelection("duo")}>
-          <h3 className="title-duo">Duo</h3>
-          <img className="dice-2" src={Dice2} alt="single dice" />
-        </section>
-      </Link>
-      <Link to="/group-games" className="link-no-underline">
-        <section
-          className="party"
-          onClick={() => handleGameTypeSelection("party")}
-        >
-          <h3 className="title-party">Party</h3>
-          <img className="dice-3" src={Dice3} alt="single dice" />
-        </section>
-      </Link>
-    </div>
-  </section>
-);
-}
+  const linkStyle = {
+    textDecoration: "none", // Remove underline
+  };
+
+  return (
+    <section className="home-page-container">
+      <div className="slogan-container">
+        <h2 className="slogan">
+          Unlock the Fun: Select Your Board Game Adventure!
+        </h2>
+      </div>
+      <div className="game-type-container">
+        <Link to="/single-game" style={linkStyle}>
+          <section
+            className="solo"
+            onClick={() => handleGameTypeSelection("solo")}
+          >
+            <h3 className="title-solo">Solo</h3>
+            <img className="dice-1" src={Dice1} alt="single dice" />
+          </section>
+        </Link>
+        <Link to="/duo-games" style={linkStyle}>
+          <section
+            className="duo"
+            onClick={() => handleGameTypeSelection("duo")}
+          >
+            <h3 className="title-duo">Duo</h3>
+            <img className="dice-2" src={Dice2} alt="single dice" />
+          </section>
+        </Link>
+        <Link to="/group-games" style={linkStyle}>
+          <section
+            className="party"
+            onClick={() => handleGameTypeSelection("party")}
+          >
+            <h3 className="title-party">Party</h3>
+            <img className="dice-3" src={Dice3} alt="single dice" />
+          </section>
+        </Link>
+      </div>
+    </section>
+  );
+};
 
 export default HomePage

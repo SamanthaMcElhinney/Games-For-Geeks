@@ -11,6 +11,10 @@
      align-items: center;
 }
 
+nav{
+     background-color: black;
+}
+
 .title-container {
      background-color:whitesmoke;
      height:10vh;
@@ -50,3 +54,10 @@
      font-size: 1.5em;
 }
 
+.link-no-underline {
+     background-color: whitesmoke;
+}
+
+.game-container{
+     background-color: whitesmoke;
+}
