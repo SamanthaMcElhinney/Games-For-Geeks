@@ -26,14 +26,10 @@ describe("Games Page: After clicking on the associated game card I will see a li
     );
     cy.visit("http://localhost:3000/single-game");
   });
-  // it("should be able to visit the page associated with the correct card", () => {
-  // cy.get(".solo").click();
-  // cy.url().should("eq", "http://localhost:3000/single-game");
-  // });
-  it.skip("should display a button to show favorites", () => {
+  it("should display a button to show favorites", () => {
     cy.get('.show-favs-img').should('exist')
   });
-  it.skip("should display cards with the associated number of players", () => {
+  it("should display cards with the associated number of players", () => {
     cy.get(".card-container").get('.game-card').should("have.length", 3)
   })
   it('should contain information on the card associated with a game', () => {
