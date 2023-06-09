@@ -1,0 +1,1644 @@
+ { "games": [{
+   "id": "yqR4PtpO8X",
+   "handle": "scythe",
+   "url": "https://www.boardgameatlas.com/game/yqR4PtpO8X/scythe",
+   "bga_edit_url": "https://www.boardgameatlas.com/game/yqR4PtpO8X/edit",
+   "template_url": "/products/listing?objectId=yqR4PtpO8X&product_line=Board Games&type=product",
+   "name": "Scythe",
+   "price": "54.39",
+   "price_ca": "78.95",
+   "price_uk": "72.17",
+   "price_au": "99.00",
+   "msrp": 90,
+   "msrps": [
+     {
+       "country": "US",
+       "price": 90
+     },
+     {
+       "country": "UK",
+       "price": 67
+     },
+     {
+       "country": "AU",
+       "price": 140
+     }
+   ],
+   "discount": "0.40",
+   "year_published": 2016,
+   "min_players": 1,
+   "max_players": 5,
+   "player_counts": [1, 2, 3, 4, 5],
+   "min_playtime": 90,
+   "max_playtime": 120,
+   "min_age": 14,
+   "description": "<p><em>Scythe</em> gives players almost complete control over their fate. Other than each player's individual hidden objective card, the only elements of luck or variability are &quot;Encounter&quot; cards that players will draw as they interact with the citizens of newly explored lands. Each encounter card provides the player with several options, allowing them to mitigate the luck of the draw through their selection. Combat is also driven by choices, not luck or randomness.<br /><br /><em>Scythe</em> uses a streamlined action-selection mechanism (no rounds or phases) to keep gameplay moving at a brisk pace and reduce downtime between turns. While there is plenty of direct conflict for players who seek it, there is no player elimination.<br /><br />Every part of <em>Scythe</em> has an aspect of engine-building to it. Players can upgrade actions to become more efficient, build structures that improve their position on the map, enlist new recruits to enhance character abilities, activate mechs to deter opponents from invading, and expand their borders to reap greater types and quantities of resources. These engine-building aspects create a sense of momentum and progress throughout the game. The order in which players improve their engine adds to the unique feel of each game, even when playing one faction multiple times.</p>",
+   "commentary": "",
+   "faq": "",
+   "thumb_url": "https://cdn.shopify.com/s/files/1/0513/4077/1515/products/scythe-board-game.jpg?v=1611090922",
+   "image_url": "https://cdn.shopify.com/s/files/1/0513/4077/1515/products/scythe-board-game.jpg?v=1611090922",
+   "matches_specs": null,
+   "specs": [],
+   "mechanics": [
+     {
+       "id": "Bc7R8pLoGk",
+       "url": "https://www.boardgameatlas.com/mechanic/Bc7R8pLoGk/undefined"
+     },
+     {
+       "id": "05zCZoLvQJ",
+       "url": "https://www.boardgameatlas.com/mechanic/05zCZoLvQJ/undefined"
+     },
+     {
+       "id": "yu3eas6v7A",
+       "url": "https://www.boardgameatlas.com/mechanic/yu3eas6v7A/undefined"
+     },
+     {
+       "id": "qu5BcGjAzk",
+       "url": "https://www.boardgameatlas.com/mechanic/qu5BcGjAzk/undefined"
+     },
+     {
+       "id": "BeD8NYAaSU",
+       "url": "https://www.boardgameatlas.com/mechanic/BeD8NYAaSU/undefined"
+     },
+     {
+       "id": "dITGE93SCS",
+       "url": "https://www.boardgameatlas.com/mechanic/dITGE93SCS/undefined"
+     },
+     {
+       "id": "XM2FYZmBHH",
+       "url": "https://www.boardgameatlas.com/mechanic/XM2FYZmBHH/undefined"
+     }
+   ],
+   "categories": [
+     {
+       "id": "85OKv8p5Ow",
+       "url": "https://www.boardgameatlas.com/category/85OKv8p5Ow/undefined"
+     },
+     {
+       "id": "nWDac9tQzt",
+       "url": "https://www.boardgameatlas.com/category/nWDac9tQzt/undefined"
+     },
+     {
+       "id": "Bq6M0TJyg7",
+       "url": "https://www.boardgameatlas.com/category/Bq6M0TJyg7/undefined"
+     },
+     {
+       "id": "zyj9ZK3mHB",
+       "url": "https://www.boardgameatlas.com/category/zyj9ZK3mHB/undefined"
+     },
+     {
+       "id": "3B3QpKvXD3",
+       "url": "https://www.boardgameatlas.com/category/3B3QpKvXD3/undefined"
+     },
+     {
+       "id": "4hZlqoitAY",
+       "url": "https://www.boardgameatlas.com/category/4hZlqoitAY/undefined"
+     },
+     {
+       "id": "buDTYyPw4D",
+       "url": "https://www.boardgameatlas.com/category/buDTYyPw4D/undefined"
+     }
+   ],
+   "publishers": [
+     {
+       "id": "njVFVNfJc7",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/njVFVNfJc7/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     },
+     {
+       "id": "9GlpSO4zcy",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/9GlpSO4zcy/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     },
+     {
+       "id": "tm3Gi5QR8G",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/tm3Gi5QR8G/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     },
+     {
+       "id": "mGVCPaJvDN",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/mGVCPaJvDN/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     },
+     {
+       "id": "hPX4pYxYZb",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/hPX4pYxYZb/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     },
+     {
+       "id": "uUXTHHVIcL",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/uUXTHHVIcL/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     },
+     {
+       "id": "BhORjPosne",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/BhORjPosne/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     },
+     {
+       "id": "I1WhPogSKu",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/I1WhPogSKu/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     },
+     {
+       "id": "mFJ3imEWZT",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/mFJ3imEWZT/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     },
+     {
+       "id": "mky4EQg5fZ",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/mky4EQg5fZ/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     },
+     {
+       "id": "uufXqkA7bx",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/uufXqkA7bx/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     },
+     {
+       "id": "FQD3Hj0ZEg",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/FQD3Hj0ZEg/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     },
+     {
+       "id": "Nz4vpToxr1",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/Nz4vpToxr1/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     },
+     {
+       "id": "HJeBOioKze",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/HJeBOioKze/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     },
+     {
+       "id": "yB7ysL3OCY",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/yB7ysL3OCY/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     },
+     {
+       "id": "d0r9CeP7E6",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/d0r9CeP7E6/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     },
+     {
+       "id": "LyhMeYJbHu",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/LyhMeYJbHu/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     }
+   ],
+   "designers": [
+     {
+       "id": "QIz5pAPzFk",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/designer/QIz5pAPzFk/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     }
+   ],
+   "primary_publisher": {
+     "id": "njVFVNfJc7",
+     "name": "Stonemaier Games",
+     "url": "https://www.boardgameatlas.com/publisher/njVFVNfJc7/stonemaier-games"
+   },
+   "primary_designer": {
+     "id": "QIz5pAPzFk",
+     "name": "Jamey Stegmaier",
+     "url": "https://www.boardgameatlas.com/designer/QIz5pAPzFk/jamey-stegmaier"
+   },
+   "developers": [],
+   "related_to": [],
+   "related_as": [],
+   "artists": ["Jakub Różalski"],
+   "names": [],
+   "rules_url": "https://app.box.com/s/rj3jrw0rab2uiz02up89kbant5g8ew1p",
+   "amazon_rank": 1583,
+   "cs_rating": 4.7,
+   "official_url": "https://stonemaiergames.com/games/scythe/?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+   "sell_sheet_url": null,
+   "store_images_url": null,
+   "comment_count": 0,
+   "num_user_ratings": 767,
+   "average_user_rating": 4.2109113428943905,
+   "size_height": 14.4,
+   "historical_low_prices": [
+     {
+       "country": "CA",
+       "date": "2022-01-21T16:41:51.181Z",
+       "price": 72.95,
+       "isLow": false
+     },
+     {
+       "country": "AU",
+       "date": "2022-12-03T13:37:14.755Z",
+       "price": 99,
+       "isLow": false
+     },
+     {
+       "country": "UK",
+       "date": "2023-03-25T15:17:20.381Z",
+       "price": 72.17,
+       "isLow": false
+     },
+     {
+       "country": "US",
+       "date": "2023-04-02T04:53:35.567Z",
+       "price": 54.39,
+       "isLow": false
+     }
+   ],
+   "active": true,
+   "num_user_complexity_votes": 17,
+   "average_learning_complexity": 3.1176470588235294,
+   "average_strategy_complexity": 3.235294117647059,
+   "visits": 23912,
+   "lists": 2318,
+   "mentions": 451,
+   "links": 41,
+   "plays": 6131,
+   "rank": 1,
+   "type": "game",
+   "sku": "STM600",
+   "upc": "653341025005",
+   "num_distributors": 9,
+   "trending_rank": 0,
+   "listing_clicks": 16,
+   "is_historical_low": false,
+   "skus": [
+     "68436933",
+     "STM600",
+     "653341025005",
+     "60700:63970",
+     "SMG-BG-SCY",
+     "0653341025005",
+     "87731",
+     "BG-SCYTHE",
+     "31293",
+     "2149218794",
+     "2148900666",
+     "2149193454",
+     "2149250766",
+     "44133 #0441",
+     "BG-000303-001",
+     "GTG-STM600",
+     "GTGSTM600",
+     "MDGSC00692",
+     "SMG1002",
+     "ZA021_SCYTHE_XH",
+     "B-BG-STM600",
+     "STM 600",
+     "STM600-EN",
+     "Ballarat|02dcd191-ae0b-11e8-ed44-6e0f8e611251",
+     "2149312242",
+     "3760146640214",
+     "2149371267"
+   ],
+   "sku_objects": [
+     {
+       "name": "Bed Bath and Beyond Inc.",
+       "sku": "68436933"
+     },
+     {
+       "name": "Boarding School Games",
+       "sku": "STM 600"
+     },
+     {
+       "name": "Power to the Meeple",
+       "sku": "STM600"
+     },
+     {
+       "name": "401 Games",
+       "sku": "653341025005"
+     },
+     {
+       "name": "BoardGameCo",
+       "sku": "60700:63970"
+     },
+     {
+       "name": "Board Gaming With Education",
+       "sku": "SMG-BG-SCY"
+     },
+     {
+       "name": "Imaginaire Shop",
+       "sku": "0653341025005"
+     },
+     {
+       "name": "Game Shack Inc.",
+       "sku": "87731"
+     },
+     {
+       "name": "Goldfields Toys & Games",
+       "sku": "BG-SCYTHE"
+     },
+     {
+       "name": "Hanabee",
+       "sku": "31293"
+     },
+     {
+       "name": "Noble Knight Games",
+       "sku": "2149218794"
+     },
+     {
+       "name": "Noble Knight Games",
+       "sku": "2148900666"
+     },
+     {
+       "name": "Noble Knight Games",
+       "sku": "2149193454"
+     },
+     {
+       "name": "Noble Knight Games",
+       "sku": "2149250766"
+     },
+     {
+       "name": "Funagain Games",
+       "sku": "44133 #0441"
+     },
+     {
+       "name": "Meeples and Milkshakes",
+       "sku": "BG-000303-001"
+     },
+     {
+       "name": "BoardGameBliss Inc",
+       "sku": "GTG-STM600"
+     },
+     {
+       "name": "Boardlandia",
+       "sku": "GTGSTM600"
+     },
+     {
+       "name": "Mr. Dice Guy",
+       "sku": "MDGSC00692"
+     },
+     {
+       "name": "Board's Edge Games",
+       "sku": "SMG1002"
+     },
+     {
+       "name": "Gameology",
+       "sku": "ZA021_SCYTHE_XH"
+     },
+     {
+       "name": "Magic Madhouse",
+       "sku": "B-BG-STM600"
+     },
+     {
+       "name": "Boarding School Games",
+       "sku": "STM 600"
+     },
+     {
+       "name": "Philibert",
+       "sku": "STM600-EN"
+     },
+     {
+       "name": "Guf",
+       "sku": "Ballarat|02dcd191-ae0b-11e8-ed44-6e0f8e611251"
+     },
+     {
+       "name": "Noble Knight Games",
+       "sku": "2149312242"
+     },
+     {
+       "name": "Imaginaire Shop",
+       "sku": "3760146640214"
+     },
+     {
+       "name": "Noble Knight Games",
+       "sku": "2149371267"
+     }
+   ],
+   "edit_url": "/products/listing-edit?objectId=yqR4PtpO8X&product_line=Board Games&type=product",
+   "players": "1-5",
+   "playtime": "90-120",
+   "msrp_text": "$90.00",
+   "price_text": "$54.39",
+   "tags": [
+     "Sçythe",
+     "Серп",
+     "大鎌戦役",
+     "鐮刀戰爭",
+     "사이쓰",
+     "Коса",
+     "사이드",
+     "Scythe",
+     "SCYTHE",
+     "SCYTHE BASE GAME ENGLISH",
+     "Stonemaier Games Scythe Board Game"
+   ],
+   "images": {
+     "thumb": "https://cdn.shopify.com/s/files/1/0513/4077/1515/products/scythe-board-game.jpg?v=1611090922",
+     "small": "https://cdn.shopify.com/s/files/1/0513/4077/1515/products/scythe-board-game.jpg?v=1611090922",
+     "medium": "https://cdn.shopify.com/s/files/1/0513/4077/1515/products/scythe-board-game.jpg?v=1611090922",
+     "large": "https://cdn.shopify.com/s/files/1/0513/4077/1515/products/scythe-board-game.jpg?v=1611090922",
+     "original": "https://cdn.shopify.com/s/files/1/0513/4077/1515/products/scythe-board-game.jpg?v=1611090922"
+   },
+   "description_preview": "  Scythe  gives players almost complete control over their fate. Other than each player's individual hidden objective card, the only elements of luck or variability are \"Encounter\" cards that players will draw as they interact with the citizens of newly explored lands. Each encounter card provides the player with several options, allowing them to mitigate the luck of the draw through their selection. Combat is also driven by choices, not luck or randomness.   Scythe  uses a streamlined action-selection mechanism (no rounds or phases) to keep gameplay moving at a brisk pace and reduce downtime between turns. While there is plenty of direct conflict for players who seek it, there is no player elimination.  Every part of  Scythe  has an aspect of engine-building to it. Players can upgrade actions to become more efficient, build structures that improve their position on the map, enlist new recruits to enhance character abilities, activate mechs to deter opponents from invading, and expand their borders to reap greater types and quantities of resources. These engine-building aspects create a sense of momentum and progress throughout the game. The order in which players improve their engine adds to the unique feel of each game, even when playing one faction multiple times. "
+ }, {
+   "id": "5H5JS0KLzK",
+   "handle": "wingspan",
+   "url": "https://www.boardgameatlas.com/game/5H5JS0KLzK/wingspan",
+   "bga_edit_url": "https://www.boardgameatlas.com/game/5H5JS0KLzK/edit",
+   "template_url": "/products/listing?objectId=5H5JS0KLzK&product_line=Board Games&type=product",
+   "name": "Wingspan",
+   "price": "50.00",
+   "price_ca": "32.59",
+   "price_uk": "37.31",
+   "price_au": "40.00",
+   "msrp": 60,
+   "msrps": [
+     {
+       "country": "US",
+       "price": 60
+     },
+     {
+       "country": "CA",
+       "price": 99
+     }
+   ],
+   "discount": "0.17",
+   "year_published": 2019,
+   "min_players": 1,
+   "max_players": 5,
+   "player_counts": [1, 2, 3, 4, 5],
+   "min_playtime": 40,
+   "max_playtime": 70,
+   "min_age": 10,
+   "description": "<p><em><strong>Wingspan</strong></em> is a competitive, medium-weight, card-driven, engine-building board game from Stonemaier Games.</p>\r\n<p>You are bird enthusiasts—researchers, bird watchers, ornithologists, and collectors—seeking to discover and attract the best birds to your aviary. Each bird extends a chain of powerful combinations in one of your habitats (actions). These habitats focus on several key aspects of growth:</p>\r\n<ul>\r\n<li>Gain food tokens via custom dice in a birdfeeder dice tower</li>\r\n<li>Lay eggs using egg miniatures in a variety of colors</li>\r\n<li>Draw from hundreds of unique bird cards and play them</li>\r\n</ul>\r\n<p>The winner is the player with the most points after 4 rounds.</p>",
+   "commentary": "<p>Wingspan's artists, Ana and Natalia, have been friends since high school in Colombia. After Natalia moved to the U.S., she ran into <a href=\"/designer/MANNUPclkd/alan-stone\" target=\"_blank\">Alan Stone</a> through their kids' school, which led to her getting connected with <a href=\"/designer/QIz5pAPzFk/jamey-stegmaier\" target=\"_blank\">Jamey Stegmaier</a> of <a href=\"/publisher/njVFVNfJc7/stonemaier-games\" target=\"_blank\">Stonemaier Games</a>. Check out this interview <a href=\"/forum/XTO9WbDBqe/how-the-best-board-game-of-2019-wingspan-reunited-two-high-school-friends-interview\" target=\"_blank\">here</a></p>\r\n<p>In an interview, designer <a href=\"/designer/UBhK4cSEV6/elizabeth-hargrave\" target=\"_blank\">Elizabeth Hargrave</a> commented that she felt &quot;... there were too many games about castles and space, and not enough games about things I'm interested in. So I decided to make a game about something I cared about.&quot;</p>",
+   "faq": "<p><strong>Is it hard to learn?</strong></p>\r\n<p>The rulebook is well-organized and easy to follow. You can learn how to play the game after reading through 10 pages of rules accompanied by plenty of visual cues and breathing space between text. Alternatively, you can use the Quick-Reference Guide (page 2 of the Appendix) if you want to learn the game in real-time.</p>\r\n<p>Veteran gamers will find it relatively easy to learn and teach, while new gamers may feel that it's more complex than what they're used to. When it comes to learning the actual strategy, the game will likely \"click\" for the majority of the players by the time your group finishes the 1st Round (there are 4 Rounds total).</p>\r\n<p>Due to the game's simple turn structure and types of actions available, you'll quickly pick up on how the game works by watching your friends play. So while you may not be playing optimally or finding the best combos to pull off, you'll likely feel comfortable by the start of Round 2.&nbsp;</p>\r\n<p>For those who've played Stonemaier Games' <a class=\"game-preview\" href=\"/game/7NYbgH2Z2I/viticulture-essential-edition\" data-tipped-options=\"ajax: {data: { ids: '7NYbgH2Z2I', client_id: 'W0AQGbjlZE' }}\">Viticulture: Essential Edition</a>, Wingspan is less complex than Viticulture in terms of strategy elements and has fewer rules to memorize. If you have detailed questions about the game, you'll likely find an answer within this <a href=\"https://stonemaiergames.com/games/wingspan/rules/\">comprehensive FAQ</a> put together by Stonemaier Games.</p>\r\n<p><strong>Is it good for 2 players?</strong></p>\r\n<p>2-player gameplay won't trigger pink bird powers as frequently, which are activated once per turn if a criteria is met during an opponent's turn (e.g. get \"X\" benefit when another player does \"Y\" action). There will also be less competition for valuable birds cards or for the food dice from the birdfeeder.</p>\r\n<p>Wingspan is a relatively low interaction game. This means that the gameplay won't feel much different at low or high player counts and makes for an easily scalable game. So if you love Wingspan at high player counts, you'll love it at 2-player count as well. On the other hand, if you're someone who prefers highly interactive games where your actions directly impact another player's strategies, you should try it out before making the purchase.</p>\r\n<p><strong>Is there a hand limit?</strong></p>\r\n<p>There is no limit to the number of bird cards you can have in your hand.</p>\r\n<p><strong>Can you play alone?</strong></p>\r\n<p>As with most Stonemaier Games titles, Wingspan comes with a separate set of rules for the Automa, an AI opponent that simulates playing against a human opponent. This game was rated #13 on \"2020 People's Choice Top 200 Solo Games.\"</p>\r\n<p><strong>Who goes first?</strong></p>\r\n<p>The first player is randomnly selected by your group. That player gets the first-player token and will kick off the game.</p>\r\n<p><strong>How do you win?</strong></p>\r\n<p>The player with the most points wins. Tally up points for the following and determine the winner:</p>\r\n<ul>\r\n<li>Points based on bird cards played on your tableau</li>\r\n<li>Points for bonus card(s) accomplished</li>\r\n<li>Points for end-of-round goals</li>\r\n<li>1 point for each:\r\n<ul>\r\n<li>Egg on a bird card</li>\r\n<li>Food token cached on a bird card</li>\r\n<li>Card tucked under a bird card</li>\r\n</ul>\r\n</li>\r\n</ul>\r\n<p>In case of a tie, number of unused food tokens serve as tiebreaker. If still tied, they share the victory.</p>\r\n<p><strong>What's inside the box?</strong></p>\r\n<ul>\r\n<li>170 unique bird cards (57x87mm)</li>\r\n<li>26 bonus cards (57x87mm)</li>\r\n<li>16 Automa cards (57x87mm)</li>\r\n<li>103 food tokens</li>\r\n<li>75 egg miniatures</li>\r\n<li>5 custom wooden dice</li>\r\n<li>5 player mats</li>\r\n<li>1 birdfeeder dice tower</li>\r\n<li>2-piece Game Trayz custom tray</li>\r\n<li>1 goal mat</li>\r\n<li>8 goal tiles</li>\r\n<li>1 first-player token</li>\r\n<li>40 action cubes (8 per player)</li>\r\n<li>1 scorepad (50 sheets; 1 sheet used for all players each game)</li>\r\n<li>3 rulebooks</li>\r\n</ul>",
+   "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1629325193747.png",
+   "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1629325193747.png",
+   "matches_specs": null,
+   "specs": [],
+   "mechanics": [
+     {
+       "id": "R0bGq4cAl4",
+       "url": "https://www.boardgameatlas.com/mechanic/R0bGq4cAl4/undefined"
+     },
+     {
+       "id": "yu3eas6v7A",
+       "url": "https://www.boardgameatlas.com/mechanic/yu3eas6v7A/undefined"
+     },
+     {
+       "id": "lA3KUtVFCy",
+       "url": "https://www.boardgameatlas.com/mechanic/lA3KUtVFCy/undefined"
+     },
+     {
+       "id": "u9IJEE1QBN",
+       "url": "https://www.boardgameatlas.com/mechanic/u9IJEE1QBN/undefined"
+     }
+   ],
+   "categories": [
+     {
+       "id": "MWoxgHrOJD",
+       "url": "https://www.boardgameatlas.com/category/MWoxgHrOJD/undefined"
+     },
+     {
+       "id": "eX8uuNlQkQ",
+       "url": "https://www.boardgameatlas.com/category/eX8uuNlQkQ/undefined"
+     },
+     {
+       "id": "mavSOM8vjH",
+       "url": "https://www.boardgameatlas.com/category/mavSOM8vjH/undefined"
+     },
+     {
+       "id": "zyj9ZK3mHB",
+       "url": "https://www.boardgameatlas.com/category/zyj9ZK3mHB/undefined"
+     }
+   ],
+   "publishers": [
+     {
+       "id": "njVFVNfJc7",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/njVFVNfJc7/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     },
+     {
+       "id": "r2R8bUHIRD",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/r2R8bUHIRD/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     },
+     {
+       "id": "tm3Gi5QR8G",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/tm3Gi5QR8G/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     },
+     {
+       "id": "mGVCPaJvDN",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/mGVCPaJvDN/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     },
+     {
+       "id": "uUXTHHVIcL",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/uUXTHHVIcL/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     },
+     {
+       "id": "8HptN6BFKM",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/8HptN6BFKM/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     },
+     {
+       "id": "BhORjPosne",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/BhORjPosne/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     },
+     {
+       "id": "mky4EQg5fZ",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/mky4EQg5fZ/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     },
+     {
+       "id": "UMssR9EGlp",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/UMssR9EGlp/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     },
+     {
+       "id": "J8pMyONAQy",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/J8pMyONAQy/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     },
+     {
+       "id": "xkaDyjLUZE",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/xkaDyjLUZE/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     },
+     {
+       "id": "uufXqkA7bx",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/uufXqkA7bx/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     },
+     {
+       "id": "FQD3Hj0ZEg",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/FQD3Hj0ZEg/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     },
+     {
+       "id": "Nz4vpToxr1",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/Nz4vpToxr1/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     },
+     {
+       "id": "CFyCoJR7q0",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/CFyCoJR7q0/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     },
+     {
+       "id": "3USxqN1uFW",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/3USxqN1uFW/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     },
+     {
+       "id": "gtEJZ3LsMl",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/gtEJZ3LsMl/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     },
+     {
+       "id": "yF9xbeU8eP",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/yF9xbeU8eP/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     },
+     {
+       "id": "xaTCCXPlby",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/xaTCCXPlby/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     },
+     {
+       "id": "LyhMeYJbHu",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/LyhMeYJbHu/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     },
+     {
+       "id": "mrosfrpc6m",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/mrosfrpc6m/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     },
+     {
+       "id": "aOf9Oev9hb",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/aOf9Oev9hb/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     }
+   ],
+   "designers": [
+     {
+       "id": "UBhK4cSEV6",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/designer/UBhK4cSEV6/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     }
+   ],
+   "primary_publisher": {
+     "id": "njVFVNfJc7",
+     "name": "Stonemaier Games",
+     "url": "https://www.boardgameatlas.com/publisher/njVFVNfJc7/stonemaier-games"
+   },
+   "primary_designer": {
+     "id": "UBhK4cSEV6",
+     "name": "Elizabeth Hargrave",
+     "url": "https://www.boardgameatlas.com/designer/UBhK4cSEV6/elizabeth-hargrave"
+   },
+   "developers": [],
+   "related_to": [],
+   "related_as": [],
+   "artists": ["Ana Maria Martinez Jaramillo", "Natalia Rojas", "Beth Sobel"],
+   "names": [],
+   "rules_url": "https://stonemaiergames.com/games/wingspan/rules/",
+   "official_url": "https://stonemaiergames.com/games/wingspan/?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+   "sell_sheet_url": null,
+   "store_images_url": null,
+   "comment_count": 0,
+   "num_user_ratings": 596,
+   "average_user_rating": 4.159101199664428,
+   "weight_amount": 4.5,
+   "size_height": 11.5,
+   "size_depth": 3,
+   "historical_low_prices": [
+     {
+       "country": "AU",
+       "date": "2021-11-26T14:15:36.420Z",
+       "price": 69.95,
+       "isLow": false
+     },
+     {
+       "country": "UK",
+       "date": "2022-01-21T16:34:57.716Z",
+       "price": 40.5,
+       "isLow": false
+     },
+     {
+       "country": "CA",
+       "date": "2023-02-07T07:53:54.175Z",
+       "price": 32.59,
+       "isLow": false
+     },
+     {
+       "country": "US",
+       "date": "2023-04-04T00:14:54.199Z",
+       "price": 50,
+       "isLow": false
+     }
+   ],
+   "active": true,
+   "num_user_complexity_votes": 12,
+   "average_learning_complexity": 2.5,
+   "average_strategy_complexity": 2.833333333333333,
+   "visits": 33556,
+   "lists": 2289,
+   "mentions": 448,
+   "links": 44,
+   "plays": 8857,
+   "rank": 2,
+   "type": "game",
+   "sku": "STM910",
+   "upc": "644216627721",
+   "isbn": "",
+   "video_links": [],
+   "availability_status": "Available",
+   "num_distributors": 11,
+   "trending_rank": 0,
+   "listing_clicks": 4,
+   "is_historical_low": false,
+   "skus": [
+     "2149265686",
+     "STM910-DD",
+     "STM900R",
+     "644216627721",
+     "B-CG-STM910",
+     "STM910",
+     "2148903618",
+     "0653341029102",
+     "3760146644991",
+     "0644216627721",
+     "STM 910",
+     "653341029102",
+     "98843",
+     "STM900",
+     "ASM647",
+     "Ballarat|02dcd191-ae3f-11e9-ed44-0e2e065f4a26",
+     "60938",
+     "+18",
+     "44810 #1015",
+     "2149285877",
+     "91850:180743",
+     "BG-000223-001",
+     "MDGWI01465",
+     "MT-WING-001",
+     "SMG1001",
+     "STM 900",
+     "STM910-DING",
+     "WINGSPAN_SH",
+     "2149010071",
+     "STM910-DDD",
+     "SATI002EN",
+     "STM910-EN",
+     "MAT-SWIN001-FR",
+     "SMG1008",
+     "2149385038"
+   ],
+   "sku_objects": [
+     {
+       "name": "Noble Knight Games",
+       "sku": "2149265686"
+     },
+     {
+       "name": "Boardlandia",
+       "sku": "STM910-DD"
+     },
+     {
+       "name": "Card Haus",
+       "sku": "STM900R"
+     },
+     {
+       "name": "401 Games",
+       "sku": "644216627721"
+     },
+     {
+       "name": "Magic Madhouse",
+       "sku": "B-CG-STM910"
+     },
+     {
+       "name": "Power to the Meeple",
+       "sku": "STM910"
+     },
+     {
+       "name": "Noble Knight Games",
+       "sku": "2148903618"
+     },
+     {
+       "name": "Imaginaire Shop",
+       "sku": "0653341029102"
+     },
+     {
+       "name": "Imaginaire Shop",
+       "sku": "3760146644991"
+     },
+     {
+       "name": "Imaginaire Shop",
+       "sku": "0644216627721"
+     },
+     {
+       "name": "Dragon’s Den Games",
+       "sku": "STM 910"
+     },
+     {
+       "name": "Cardboard Memories Inc.",
+       "sku": "653341029102"
+     },
+     {
+       "name": "Game Shack Inc.",
+       "sku": "98843"
+     },
+     {
+       "name": "Advent Games",
+       "sku": "STM900"
+     },
+     {
+       "name": "More Than Meeples",
+       "sku": "ASM647"
+     },
+     {
+       "name": "Guf",
+       "sku": "Ballarat|02dcd191-ae3f-11e9-ed44-0e2e065f4a26"
+     },
+     {
+       "name": "Hanabee",
+       "sku": "60938"
+     },
+     {
+       "name": "Boardgame Master",
+       "sku": "+18"
+     },
+     {
+       "name": "Funagain Games",
+       "sku": "44810 #1015"
+     },
+     {
+       "name": "Noble Knight Games",
+       "sku": "2149285877"
+     },
+     {
+       "name": "BoardGameCo",
+       "sku": "91850:180743"
+     },
+     {
+       "name": "Meeples and Milkshakes",
+       "sku": "BG-000223-001"
+     },
+     {
+       "name": "Mr. Dice Guy",
+       "sku": "MDGWI01465"
+     },
+     {
+       "name": "BoardGameBliss Inc",
+       "sku": "MT-WING-001"
+     },
+     {
+       "name": "Board's Edge Games",
+       "sku": "SMG1001"
+     },
+     {
+       "name": "Macronova Games",
+       "sku": "STM 900"
+     },
+     {
+       "name": "Game Nerdz",
+       "sku": "STM910-DING"
+     },
+     {
+       "name": "Gameology",
+       "sku": "WINGSPAN_SH"
+     },
+     {
+       "name": "Noble Knight Games",
+       "sku": "2149010071"
+     },
+     {
+       "name": "Boardlandia",
+       "sku": "STM910-DDD"
+     },
+     {
+       "name": "Philibert",
+       "sku": "SATI002EN"
+     },
+     {
+       "name": "Philibert",
+       "sku": "STM910-EN"
+     },
+     {
+       "name": "Philibert",
+       "sku": "MAT-SWIN001-FR"
+     },
+     {
+       "name": "Board's Edge Games",
+       "sku": "SMG1008"
+     },
+     {
+       "name": "Noble Knight Games",
+       "sku": "2149385038"
+     }
+   ],
+   "edit_url": "/products/listing-edit?objectId=5H5JS0KLzK&product_line=Board Games&type=product",
+   "players": "1-5",
+   "playtime": "40-70",
+   "msrp_text": "$60.00",
+   "price_text": "$50.00",
+   "tags": [
+     "Fesztáv",
+     "Flügelschlag",
+     "Na křídlech",
+     "Na skrzydłach",
+     "Крылья",
+     "展翅翱翔",
+     "윙스팬",
+     "ΑΝΟΙΓΜΑ ΦΤΕΡΩΝ",
+     "Крила",
+     "ปีกปักษา",
+     "ウイングスパン",
+     "Wingspan with Swift Start Pack",
+     "Wingspan",
+     "Wingspan Core Game Revised",
+     "Wingspan English edition with Swift Start Pack",
+     "Wingspan with Swift Start Pack Stonemaier Games",
+     "Wingspan STM910",
+     "Wingspan STM900",
+     "Wingspan Edition",
+     "Stonemaier Games Wingspan with Swift Start Pack",
+     "Wingspan Edition Includes Swift Start Pack",
+     "(Pre Order) Wingspan {May 15, 2021)",
+     "Wingspan Printing",
+     "Wingspan with Swift Start Pack Stonemaier Games MINOR BOX DING",
+     "Wingspan board game",
+     "Wingspan 1st Printing",
+     "Wingspan - Dent and Ding",
+     "Wingspan 2nd Edition Includes Swift Start Pack",
+     "Wingspan (Old STM900 Edition)",
+     "Wingspan (New STM910 Edition) (Minor Damage)",
+     "Wingspan 2nd Edition",
+     "WINGSPAN WITH SWIFT START PACK",
+     "Box One",
+     "Wingspan - Base Game - with Swift Start",
+     "Wingspan Includes Swift Start Pack",
+     "Wingspan with Swift Start",
+     "Wingspan Revised Edition",
+     "Wingspan Bundle",
+     "Wingspan With Swift Start 19th Printing",
+     "WINGSPAN",
+     "WINGSPAN BASE GAME ENGLISH",
+     "Wingspan with Swift Start French",
+     "WINGSPAN SWIFT START FRENCH",
+     "WINGSPAN BASE GAME FRENCH",
+     "WINGSPAN BASE GAME SWIFT START ENGLISH",
+     "Wingspan Includes Swift Start",
+     "Wingspan Strategy with Swift Start Pack Expansion",
+     "Wingspan - Ding & Dent",
+     "Wingspan (2nd Edition - Includes Swift-Start Pack) (Ding & Dent)",
+     "Wingspan With Swift Start - 19th Printing",
+     "Wingspan (with Swift Start)",
+     "Wingspan w/Swift Start Pack",
+     "Wingspan w/Swift Start Pack & European Expansion",
+     "Wingspan : English edition with Swift-Start Pack",
+     "Wingspan Revised Edition (Dinged/Dented - 20% off at checkout)",
+     "Wingspan - 2nd Edition - Dent and Ding (Major Damage)"
+   ],
+   "images": {
+     "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1629325193747.png",
+     "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1629325193747.png",
+     "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1629325193747.png",
+     "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1629325193747.png",
+     "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1629325193747.png"
+   },
+   "description_preview": "   Wingspan   is a competitive, medium-weight, card-driven, engine-building board game from Stonemaier Games. \r\n You are bird enthusiasts—researchers, bird watchers, ornithologists, and collectors—seeking to discover and attract the best birds to your aviary. Each bird extends a chain of powerful combinations in one of your habitats (actions). These habitats focus on several key aspects of growth: \r\n \r\n Gain food tokens via custom dice in a birdfeeder dice tower \r\n Lay eggs using egg miniatures in a variety of colors \r\n Draw from hundreds of unique bird cards and play them \r\n \r\n The winner is the player with the most points after 4 rounds. "
+ }, {
+   "id": "RLlDWHh7hR",
+   "handle": "gloomhaven",
+   "url": "https://www.boardgameatlas.com/game/RLlDWHh7hR/gloomhaven",
+   "bga_edit_url": "https://www.boardgameatlas.com/game/RLlDWHh7hR/edit",
+   "template_url": "/products/listing?objectId=RLlDWHh7hR&product_line=Board Games&type=product",
+   "name": "Gloomhaven",
+   "price": "105.97",
+   "price_ca": "110.99",
+   "price_uk": "0.00",
+   "price_au": "184.95",
+   "msrp": 140,
+   "msrps": [
+     {
+       "country": "US",
+       "price": 140
+     }
+   ],
+   "discount": "0.24",
+   "year_published": 2017,
+   "min_players": 1,
+   "max_players": 4,
+   "player_counts": [1, 2, 3, 4],
+   "min_playtime": 60,
+   "max_playtime": 150,
+   "min_age": 12,
+   "description": "<p><strong>Gloomhaven</strong> is a game of Euro-inspired tactical combat in a persistent world of shifting motives. Players will take on the role of a wandering adventurer with their own special set of skills and their own reasons for traveling to this dark corner of the world.<br /><br />Players must work together out of necessity to clear out menacing dungeons and forgotten ruins. In the process they will enhance their abilities with experience and loot, discover new locations to explore and plunder, and expand an ever-branching story fueled by the decisions they make.<br /><br />This is a legacy game with a persistent and changing world that is ideally played over many game sessions. After a scenario, players will make decisions on what to do, which will determine how the story continues, kind of like a &quot;Choose Your Own Adventure&quot; book. Playing through a scenario is a cooperative affair where players will fight against automated monsters using an innovative card system to determine the order of play and what a player does on their turn.</p>",
+   "commentary": "<p>After the 1st Kickstarter raised $386,104 from 4,904 backers, this 22 lb monster of a box opened to critical acclaim and went onto raise another $4M from over 40,000 backers for its second print run.</p>",
+   "faq": "<p><strong>How do you play this game?</strong></p>\r\n<p>Here's a how-to-play video by Shea of RTFM:</p>\r\n<div>\r\n<div class=\"d-block d-sm-none\"><div class=\"iframe-placeholder\" data-html=\"%3Ciframe%20src=%22https://www.youtube.com/embed/Uw7LI2esvp0%22%20width=%22300%22%20height=%22170%22%20frameborder=%220%22%20allowfullscreen=%22allowfullscreen%22%20data-mce-fragment=%221%22%3E%3C/iframe%3E\"></div></div>\r\n<div class=\"d-none d-sm-block\"><div class=\"iframe-placeholder\" data-html=\"%3Ciframe%20src=%22https://www.youtube.com/embed/Uw7LI2esvp0%22%20width=%22560%22%20height=%22315%22%20frameborder=%220%22%20allowfullscreen=%22allowfullscreen%22%20data-mce-fragment=%221%22%3E%3C/iframe%3E\"></div></div>\r\n</div>",
+   "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254920151-51ulRXlJ7LL.jpg",
+   "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254920151-51ulRXlJ7LL.jpg",
+   "matches_specs": null,
+   "specs": [],
+   "mechanics": [
+     {
+       "id": "xuphiSlrxI",
+       "url": "https://www.boardgameatlas.com/mechanic/xuphiSlrxI/undefined"
+     },
+     {
+       "id": "9mNukNBxfZ",
+       "url": "https://www.boardgameatlas.com/mechanic/9mNukNBxfZ/undefined"
+     },
+     {
+       "id": "qu5BcGjAzk",
+       "url": "https://www.boardgameatlas.com/mechanic/qu5BcGjAzk/undefined"
+     },
+     {
+       "id": "WPytek5P8l",
+       "url": "https://www.boardgameatlas.com/mechanic/WPytek5P8l/undefined"
+     },
+     {
+       "id": "DwmsVEvNVd",
+       "url": "https://www.boardgameatlas.com/mechanic/DwmsVEvNVd/undefined"
+     },
+     {
+       "id": "U3zhCQH7Et",
+       "url": "https://www.boardgameatlas.com/mechanic/U3zhCQH7Et/undefined"
+     },
+     {
+       "id": "EVeAdboGUA",
+       "url": "https://www.boardgameatlas.com/mechanic/EVeAdboGUA/undefined"
+     },
+     {
+       "id": "za4PP1LH00",
+       "url": "https://www.boardgameatlas.com/mechanic/za4PP1LH00/undefined"
+     },
+     {
+       "id": "GUoWg3Mfh5",
+       "url": "https://www.boardgameatlas.com/mechanic/GUoWg3Mfh5/undefined"
+     },
+     {
+       "id": "XM2FYZmBHH",
+       "url": "https://www.boardgameatlas.com/mechanic/XM2FYZmBHH/undefined"
+     }
+   ],
+   "categories": [
+     {
+       "id": "KUBCKBkGxV",
+       "url": "https://www.boardgameatlas.com/category/KUBCKBkGxV/undefined"
+     },
+     {
+       "id": "ZTneo8TaIO",
+       "url": "https://www.boardgameatlas.com/category/ZTneo8TaIO/undefined"
+     }
+   ],
+   "publishers": [
+     {
+       "id": "VJ5nXRHPzv",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/publisher/VJ5nXRHPzv/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     }
+   ],
+   "designers": [
+     {
+       "id": "7emo74yKS4",
+       "num_games": null,
+       "score": 9999999,
+       "game": {},
+       "url": "https://www.boardgameatlas.com/designer/7emo74yKS4/undefined",
+       "images": {
+         "thumb": null,
+         "small": null,
+         "medium": null,
+         "large": null,
+         "original": null
+       }
+     }
+   ],
+   "primary_publisher": {
+     "id": "VJ5nXRHPzv",
+     "name": "Cephalofair Games",
+     "url": "https://www.boardgameatlas.com/publisher/VJ5nXRHPzv/cephalofair-games"
+   },
+   "primary_designer": {
+     "id": "7emo74yKS4",
+     "name": "Isaac Childres",
+     "url": "https://www.boardgameatlas.com/designer/7emo74yKS4/isaac-childres"
+   },
+   "developers": [],
+   "related_to": [],
+   "related_as": [],
+   "artists": ["Alexandr Elichev", "Josh T. McDowell", "Alvaro Nebot"],
+   "names": [],
+   "rules_url": "https://online.flippingbook.com/view/598058/",
+   "amazon_rank": 4,
+   "cs_rating": 4.3,
+   "official_url": "http://www.cephalofair.com/gloomhaven?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+   "sell_sheet_url": null,
+   "store_images_url": null,
+   "comment_count": 0,
+   "num_user_ratings": 493,
+   "average_user_rating": 4.347479716024339,
+   "size_height": 16.2,
+   "historical_low_prices": [
+     {
+       "country": "UK",
+       "date": "2021-12-08T05:13:56.447Z",
+       "price": 99.99,
+       "isLow": false
+     },
+     {
+       "country": "AU",
+       "date": "2022-01-21T16:05:53.432Z",
+       "price": 184.95,
+       "isLow": false
+     },
+     {
+       "country": "CA",
+       "date": "2022-01-21T16:46:11.005Z",
+       "price": 121.37,
+       "isLow": false
+     },
+     {
+       "country": "US",
+       "date": "2023-04-03T20:28:04.809Z",
+       "price": 105.97,
+       "isLow": false
+     }
+   ],
+   "active": true,
+   "num_user_complexity_votes": 10,
+   "average_learning_complexity": 3.9,
+   "average_strategy_complexity": 3.5999999999999996,
+   "visits": 21250,
+   "lists": 1856,
+   "mentions": 341,
+   "links": 31,
+   "plays": 10280,
+   "rank": 5,
+   "type": "game",
+   "sku": "CPH0201",
+   "upc": "019962194719",
+   "num_distributors": 5,
+   "trending_rank": 0,
+   "listing_clicks": 5,
+   "is_historical_low": false,
+   "skus": [
+     "CPH 0201",
+     "2149182798",
+     "CPH0201-DD",
+     "Ballarat|02dcd191-ae0b-11e8-ed44-73b336c13c5f",
+     "019962194719",
+     "CPH0201",
+     "CPH0204",
+     "88564",
+     "Ballarat|36d08455-f5f2-bd97-8dd0-71993f331c6b",
+     "GLOOM01",
+     "CEP0201",
+     "34386",
+     "44977 #0012",
+     "61386:166916",
+     "BG-000222-001",
+     "DA-CPH0201",
+     "MDGGL00616",
+     "ZA012_GLOOMHAVEN_XH",
+     "CEP1001",
+     "3558380064022",
+     "2149362691",
+     "2148741812"
+   ],
+   "sku_objects": [
+     {
+       "name": "Boarding School Games",
+       "sku": "CPH 0201"
+     },
+     {
+       "name": "Noble Knight Games",
+       "sku": "2149182798"
+     },
+     {
+       "name": "Boardlandia",
+       "sku": "CPH0201-DD"
+     },
+     {
+       "name": "Guf",
+       "sku": "Ballarat|02dcd191-ae0b-11e8-ed44-73b336c13c5f"
+     },
+     {
+       "name": "Boardgame Master",
+       "sku": "019962194719"
+     },
+     {
+       "name": "Card Haus",
+       "sku": "CPH0201"
+     },
+     {
+       "name": "gameknight.ca",
+       "sku": "CPH0204"
+     },
+     {
+       "name": "Game Shack Inc.",
+       "sku": "88564"
+     },
+     {
+       "name": "Guf",
+       "sku": "Ballarat|36d08455-f5f2-bd97-8dd0-71993f331c6b"
+     },
+     {
+       "name": "Advent Games",
+       "sku": "GLOOM01"
+     },
+     {
+       "name": "Gumnut",
+       "sku": "CEP0201"
+     },
+     {
+       "name": "Hanabee",
+       "sku": "34386"
+     },
+     {
+       "name": "Funagain Games",
+       "sku": "44977 #0012"
+     },
+     {
+       "name": "BoardGameCo",
+       "sku": "61386:166916"
+     },
+     {
+       "name": "Meeples and Milkshakes",
+       "sku": "BG-000222-001"
+     },
+     {
+       "name": "Board Game Bandit",
+       "sku": "DA-CPH0201"
+     },
+     {
+       "name": "Mr. Dice Guy",
+       "sku": "MDGGL00616"
+     },
+     {
+       "name": "Gameology",
+       "sku": "ZA012_GLOOMHAVEN_XH"
+     },
+     {
+       "name": "Board's Edge Games",
+       "sku": "CEP1001"
+     },
+     {
+       "name": "Imaginaire Shop",
+       "sku": "3558380064022"
+     },
+     {
+       "name": "Noble Knight Games",
+       "sku": "2149362691"
+     },
+     {
+       "name": "Noble Knight Games",
+       "sku": "2148741812"
+     }
+   ],
+   "edit_url": "/products/listing-edit?objectId=RLlDWHh7hR&product_line=Board Games&type=product",
+   "players": "1-4",
+   "playtime": "60-150",
+   "msrp_text": "$140.00",
+   "price_text": "$105.97",
+   "tags": [
+     "Homályrév",
+     "幽港迷城",
+     "글룸헤이븐",
+     "Gloomhaven",
+     "Gloomhaven Fifth Printing",
+     "Gloomhaven Revised Edition",
+     "Gloomhaven 2nd Edition",
+     "Gloomhaven 2nd Printing w Removable Sticker Set",
+     "Gloomhaven Second Edition Fourth Printing",
+     "GLOOMHAVEN",
+     "Gloomhaven Boxed",
+     "GLOOMHAVEN GAME"
+   ],
+   "images": {
+     "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1559254920151-51ulRXlJ7LL.jpg",
+     "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1559254920151-51ulRXlJ7LL.jpg",
+     "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1559254920151-51ulRXlJ7LL.jpg",
+     "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1559254920151-51ulRXlJ7LL.jpg",
+     "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254920151-51ulRXlJ7LL.jpg"
+   },
+   "description_preview": "  Gloomhaven  is a game of Euro-inspired tactical combat in a persistent world of shifting motives. Players will take on the role of a wandering adventurer with their own special set of skills and their own reasons for traveling to this dark corner of the world.  Players must work together out of necessity to clear out menacing dungeons and forgotten ruins. In the process they will enhance their abilities with experience and loot, discover new locations to explore and plunder, and expand an ever-branching story fueled by the decisions they make.  This is a legacy game with a persistent and changing world that is ideally played over many game sessions. After a scenario, players will make decisions on what to do, which will determine how the story continues, kind of like a \"Choose Your Own Adventure\" book. Playing through a scenario is a cooperative affair where players will fight against automated monsters using an innovative card system to determine the order of play and what a player does on their turn. "
+ 
+ }
+]
+}
