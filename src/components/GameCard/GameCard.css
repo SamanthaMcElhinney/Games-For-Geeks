@@ -17,30 +17,30 @@ nav{
 
 .title-container {
      background-color:whitesmoke;
-     height:10vh;
+     height:8vh;
+     margin-right:.5em;
 }
 
 .game-title{
-     margin-top: 2em;
-     background-color:whitesmoke;
-     justify-content: center;
+     margin-top: 1em;
+     margin-right: 1.25em;
+     margin-left: 0.5em;
      text-align: center;
+     background-color:whitesmoke;
 }
 
 .game-image{
      background-color:whitesmoke;
-     margin-top: -.75em;
      height:25vh;
      width:90%;
-}
-
-.game-rating{
-     font-weight: bolder;
+     margin-left: 0.5em;
+     margin-top:.5em;
 }
 
 .game-rating, .game-playtime{
      background-color: whitesmoke;
      margin:.5em;
+     font-weight:500;
 }
 
 .favorite-button {
@@ -49,8 +49,8 @@ nav{
      top: .1em;
      right: .1em;
      cursor: pointer;
-      border: 1px solid whitesmoke;
-      border-radius: 5px;
+     border: 1px solid whitesmoke;
+     border-radius: 5px;
      font-size: 1.5em;
 }
 
@@ -60,4 +60,8 @@ nav{
 
 .game-container{
      background-color: whitesmoke;
+}
+
+h4 {
+     font-weight: normal;
 }
