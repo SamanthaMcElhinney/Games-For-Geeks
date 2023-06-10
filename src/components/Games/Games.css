@@ -8,6 +8,7 @@
     background-color: black;
     margin-top: 0;
     margin-bottom: 0;
+      padding: 0.5em 1em;
 }
 
 .main{
@@ -59,4 +60,16 @@
     grid-row-gap: 1%; 
     margin: 5%; 
   }
+
+   .show-favs-button {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: .2em;
+    padding: 0.25em 0.5em; 
+  }
+
+  .show-favs-img {
+    height: 80px;
+    width: 175px;
+}
 }
