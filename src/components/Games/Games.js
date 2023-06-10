@@ -58,12 +58,12 @@ const Games= ({ games, favoriteGames, unfavoriteGames }) => {
 Games.propTypes = {
   games: PropTypes.arrayOf(
     PropTypes.shape({
-      title: PropTypes.string.isRequired,
-      image: PropTypes.string.isRequired,
-      rating: PropTypes.number.isRequired,
-      id: PropTypes.string.isRequired,
-      playTime: PropTypes.string.isRequired,
-    }).isRequired
+      title: PropTypes.string,
+      image: PropTypes.string,
+      rating: PropTypes.number,
+      id: PropTypes.string,
+      playTime: PropTypes.string
+    })
   ),
   favoriteGames: PropTypes.func.isRequired,
   unfavoriteGames: PropTypes.func.isRequired,
