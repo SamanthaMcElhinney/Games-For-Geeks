@@ -1,10 +1,17 @@
 .card-container{
     display:grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-column-gap: 5%;
+    grid-column-gap: 3%;
     grid-row-gap: 2%;
     margin-left:5em;
     margin-right:5em;
+    background-color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.main{
+  background-color: black;
 }
 
 .show-favs-button {
