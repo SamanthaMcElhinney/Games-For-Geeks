@@ -21,7 +21,7 @@ During this project, I challenged myself to build a responsive React application
  - Navigate to http://localhost:3000 in your browser to use the application.
 
 ## Illustrations
-![Animated GIF](src/assets/Games-For-Geeks.gif)
+![Animated GIF](src/assets/GIF-games.gif)
 
 ## Contributors
 
@@ -44,10 +44,10 @@ This was the [showcase project](https://frontend.turing.edu/projects/module-3/sh
 - Responsive design  
 
 ## Wins
--Successfully integrated and utilized data from an unfamiliar API
--Efficiently created and followed user stories, ensuring features catered to our target audience.
--Fully tests user flows with ample error handling.
--Maintained a steady pace throughout the project to deliver an MVP in a short timeframe
+- Successfully integrated and utilized data from an unfamiliar API
+- Efficiently created and followed user stories, ensuring features catered to our target audience.
+- Fully tests user flows with ample error handling.
+- Maintained a steady pace throughout the project to deliver an MVP in a short timeframe
 
 ## Future Development Opportunities
 - User login feature, enabling saving favorites between visits.
