@@ -32,9 +32,10 @@
 }
 
 .game-title{
-    font-weight: normal;
-    font-size: 1.4em;
+    font-weight: 500;
+    font-size: 1.3em;
     color:black;
+    margin-right:1em;
 }
 
 .solo, .duo, .party {
