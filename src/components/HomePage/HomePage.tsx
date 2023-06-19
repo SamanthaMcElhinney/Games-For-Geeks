@@ -5,15 +5,14 @@ import Dice2 from "../../assets/Dice2.png";
 import Dice3 from "../../assets/Dice3.png";
 import { Link } from 'react-router-dom';
 
-
 const HomePage = () => {
-  const [selectedGameType, setSelectedGameType] = useState("");
-  const handleGameTypeSelection = (gameType) => {
+  const [selectedGameType, setSelectedGameType] = useState<string>("");
+  const handleGameTypeSelection = (gameType:string):void => {
     setSelectedGameType(gameType);
   };
 
-  const linkStyle = {
-    textDecoration: "none", // Remove underline
+  const linkStyle: React.CSSProperties = {
+    textDecoration: "none", 
   };
 
   return (

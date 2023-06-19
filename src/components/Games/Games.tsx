@@ -1,11 +1,25 @@
 import React, { useState } from "react";
 import "./Games.css";
-import GameCard from "../GameCard/GameCard";
+import GameCard from "../GameCard/GameCard.tsx";
 import favs from "../../assets/show-favs.png";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
-const Games= ({ games, favoriteGames, unfavoriteGames }) => {
+type Game = {
+  title: string;
+  image:string;
+  rating:number;
+  id: string;
+  playTime: string;
+}
+
+type GamesProps = {
+  games: Game[];
+  favoriteGames: (id:string) => void;
+  unfavoriteGames: (id:string) => void;
+}
+
+const Games= ({ games, favoriteGames, unfavoriteGames }: GamesProps):JSX.Element => {
   const [showFavorites, setShowFavorites] = useState(false);
 
   if (!games) {
