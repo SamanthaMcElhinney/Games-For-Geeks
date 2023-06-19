@@ -39,7 +39,7 @@ This was the [showcase project](https://frontend.turing.edu/projects/module-3/sh
 - End to end testing using Cypress
 - Fetch API
 - Git/GitHub/ GitHub project board
-- Javascript/ CSS/ HTML
+- Javascript/ CSS/ HTML/TypeScript
 - Utilizing Agile/ Scrum project management
 - Responsive design  
 
