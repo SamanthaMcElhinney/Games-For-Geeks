@@ -1,19 +1,33 @@
 import React, { useEffect, useState } from "react";
-import Header from '../Header/Header'
+import Header from '../Header/Header.tsx'
 import './App.css'
-import HomePage from "../HomePage/HomePage";
-import {getGames} from "../../Api-Calls";
+import HomePage from "../HomePage/HomePage.tsx";
+import {getGames} from "../../Api-Calls.tsx";
 import {Switch, Route} from 'react-router-dom'
-import Games from "../Games/Games"
-import GameDetails from "../GameDetails/GameDetails";
-import Error from "../Error/Error";
+import Games from "../Games/Games.tsx"
+import GameDetails from "../GameDetails/GameDetails.tsx";
+import Error from "../Error/Error.tsx";
 
-const App = () => {
-  const [twoPlayers, setTwoPlayers] = useState([]);
-  const [error, setError] = useState("");
-  const [groupPlayers, setGroupPlayers] = useState([]);
-  const [singlePlayer, setSinglePlayer] = useState([]);
-  const [favorites, setFavorites] = useState([]);
+interface AppProps {}
+
+interface GameState {
+  twoPlayers: Game[];
+  error: string;
+  groupPlayers: Game[]
+  singlePlayer: Game[];
+  favorites: Game[];
+}
+
+interface Game {
+  id: string;
+}
+
+const App: React.FC<AppProps> = () => {
+  const [twoPlayers, setTwoPlayers] = useState<Game[]>([]);
+  const [error, setError] = useState<string>("");
+  const [groupPlayers, setGroupPlayers] = useState<Game[]>([]);
+  const [singlePlayer, setSinglePlayer] = useState<Game[]>([]);
+  const [favorites, setFavorites] = useState<Game[]>([]);
 
 useEffect(() => {
   getGames(1)
@@ -41,7 +55,7 @@ useEffect(() => {
     });
 }, []);
 
-  const favoriteGames = (id) => {
+  const favoriteGames = (id:string) => {
     const game =
       twoPlayers.find((game) => game.id === id) ||
       groupPlayers.find((game) => game.id === id) ||
@@ -51,7 +65,7 @@ useEffect(() => {
     }
   };
 
-  const unfavoriteGames = (id) => {
+  const unfavoriteGames = (id:string) => {
     const favoritesArray = favorites.filter(game => game.id !== id)
     setFavorites(favoritesArray)
   }

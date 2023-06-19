@@ -2,7 +2,23 @@ import React from 'react'
 import './GameDetails.css'
 import PropTypes from "prop-types";
 
-export default function GameDetails({game}) {
+type GameDetailsProps = {
+  game: {
+    name: string;
+    images: {
+      large: string;
+    };
+    description: string;
+    price: string;
+    year_published: number;
+    min_players: number;
+    max_players: number;
+    average_learning_complexity?: number;
+    average_strategy_complexity?: number;
+  };
+};
+
+export default function GameDetails({game}: GameDetailsProps) {
 const youtubeSearchQuery = encodeURIComponent(`${game.name} How to Play`);
 const learning = game.average_learning_complexity
 const strategy = game.average_strategy_complexity

@@ -3,7 +3,17 @@ import "./GameCard.css"
 import { Link, useLocation } from 'react-router-dom'
 import PropTypes from 'prop-types'
 
-export default function GameCard({
+interface GameCardProps {
+  title: string;
+  image:string;
+  rating:number;
+  id:string;
+  playTime: number;
+  favoriteGames: (id:string) => void;
+  unfavoriteGames: (id:string) => void;
+}
+
+const GameCard: React.FC<GameCardProps> = ({
   title,
   image,
   rating,
@@ -11,7 +21,7 @@ export default function GameCard({
   playTime,
   favoriteGames,
   unfavoriteGames,
-}) {
+})  => {
   const location = useLocation()
   const [isFavorite, setFavorite] = useState(false);
 
@@ -61,3 +71,5 @@ GameCard.prototype = {
   favoriteGames: PropTypes.func.isRequired,
   unfavoriteGames: PropTypes.func.isRequired,
 };
+
+export default GameCard;
