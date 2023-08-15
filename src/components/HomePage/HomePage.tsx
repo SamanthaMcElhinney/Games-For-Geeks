@@ -1,22 +1,44 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import './HomePage.css'
 import Dice1 from "../../assets/Dice1.png";
 import Dice2 from "../../assets/Dice2.png";
 import Dice3 from "../../assets/Dice3.png";
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
+import Form from '../Form/Form';
+import { getGamesByName } from "../../Api-Calls";
+import { Game } from '../../types/Game';
 
-const HomePage = () => {
+interface HomePageProps {
+  setSearchedGames: (games: Game[]) => void;
+}
+
+const HomePage = ({ setSearchedGames }: HomePageProps) => {
+  const history = useHistory();
   const [selectedGameType, setSelectedGameType] = useState<string>("");
-  const handleGameTypeSelection = (gameType:string):void => {
+  const handleGameTypeSelection = (gameType: string): void => {
     setSelectedGameType(gameType);
   };
+  const [gameName, setGameName] = useState<string>("");
 
   const linkStyle: React.CSSProperties = {
-    textDecoration: "none", 
+    textDecoration: "none",
+  };
+
+  const handleSearch = (query: string) => {
+    getGamesByName(query)
+      .then((data) => {
+        console.log(data);
+           setSearchedGames(data.games);
+        history.push("/ind-games");
+      })
+      .catch((error) => {
+        console.error(error);
+      });
   };
 
   return (
     <section className="home-page-container">
+      <Form onSearch={handleSearch} />
       <div className="slogan-container">
         <h2 className="slogan">
           Unlock the Fun: Select Your Board Game Adventure!
@@ -51,6 +73,7 @@ const HomePage = () => {
           </section>
         </Link>
       </div>
+      <div className="search-container"></div>
     </section>
   );
 };

@@ -1,25 +1,18 @@
 import React, { useState } from "react";
 import "./Games.css";
-import GameCard from "../GameCard/GameCard.tsx";
+import GameCard from "../GameCard/GameCard";
 import favs from "../../assets/show-favs.png";
 import { Link } from "react-router-dom";
-import PropTypes from "prop-types";
-
-type Game = {
-  title: string;
-  image:string;
-  rating:number;
-  id: string;
-  playTime: string;
-}
+import { Game } from "../../types/Game";
 
 type GamesProps = {
   games: Game[];
-  favoriteGames: (id:string) => void;
-  unfavoriteGames: (id:string) => void;
-}
+  favoriteGames: (id: string) => void;
+  unfavoriteGames: (id: string) => void;
+  searchGames?: (query: string) => void;
+};
 
-const Games= ({ games, favoriteGames, unfavoriteGames }: GamesProps):JSX.Element => {
+const Games= ({ games, favoriteGames, unfavoriteGames, searchGames }: GamesProps) => {
   const [showFavorites, setShowFavorites] = useState(false);
 
   if (!games) {
@@ -28,12 +21,13 @@ const Games= ({ games, favoriteGames, unfavoriteGames }: GamesProps):JSX.Element
 
   const cards = games.map((game) => {
     const ratingNum = game.average_user_rating;
+    const imageUrl = game.images? game.images.small : 'Sorry no image'
     return (
       <GameCard
         key={game.id}
         title={game.name}
-        image={game.images.small}
-        rating={ratingNum.toFixed(2)}
+        image={imageUrl}
+        rating={parseFloat(ratingNum.toFixed(2))}
         playTime={game.playtime}
         id={game.id}
         favoriteGames={favoriteGames}
@@ -67,20 +61,6 @@ const Games= ({ games, favoriteGames, unfavoriteGames }: GamesProps):JSX.Element
       </div>
     </Link>
   );
-};
-
-Games.propTypes = {
-  games: PropTypes.arrayOf(
-    PropTypes.shape({
-      title: PropTypes.string,
-      image: PropTypes.string,
-      rating: PropTypes.number,
-      id: PropTypes.string,
-      playTime: PropTypes.string
-    })
-  ),
-  favoriteGames: PropTypes.func.isRequired,
-  unfavoriteGames: PropTypes.func.isRequired,
 };
 
 export default Games;

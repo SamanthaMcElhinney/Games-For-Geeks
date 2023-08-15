@@ -25,16 +25,16 @@ const GameCard: React.FC<GameCardProps> = ({
   const location = useLocation()
   const [isFavorite, setFavorite] = useState(false);
 
-  const toggleFavorites = (event) => {
+  const toggleFavorites = (event: React.MouseEvent<HTMLButtonElement>) => {
     event.preventDefault();
     if (isFavorite) {
-     unfavoriteGames(id);
+      unfavoriteGames(id);
     } else {
       favoriteGames(id);
     }
     setFavorite(!isFavorite);
   };
-
+  
   useEffect(()=> {
     setFavorite(location.pathname === '/favorites')
   },[location])
@@ -62,14 +62,5 @@ const GameCard: React.FC<GameCardProps> = ({
   );
 }
 
-GameCard.prototype = {
-  title: PropTypes.string.isRequired,
-  image: PropTypes.string.isRequired,
-  rating: PropTypes.number.isRequired,
-  id: PropTypes.string.isRequired,
-  playTime: PropTypes.number.isRequired,
-  favoriteGames: PropTypes.func.isRequired,
-  unfavoriteGames: PropTypes.func.isRequired,
-};
 
 export default GameCard;
