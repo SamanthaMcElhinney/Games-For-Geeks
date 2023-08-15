@@ -2,23 +2,24 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height:100vh;
-    width:100vw;
     font-family: 'Quicksand';
     background-color: black;
+    justify-content: center; 
+    align-items: center; 
 }
 
-.slogan-container{
+.slogan-container, .search-container{
     display:flex;
     justify-content: center;
 }
 
-.slogan{
+.slogan, .search{
     color:#c79cdb;
     font-weight: bold;
 }
 
 .game-type-container{
+      margin: 3% auto 0 auto; 
     display:grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 100px;

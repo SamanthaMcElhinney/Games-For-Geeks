@@ -1,34 +1,23 @@
 import React from 'react'
 import './GameDetails.css'
-import PropTypes from "prop-types";
+import { Game } from '../../types/Game';
 
-type GameDetailsProps = {
-  game: {
-    name: string;
-    images: {
-      large: string;
-    };
-    description: string;
-    price: string;
-    year_published: number;
-    min_players: number;
-    max_players: number;
-    average_learning_complexity?: number;
-    average_strategy_complexity?: number;
-  };
-};
+interface GameDetailsProps{
+  game: Game
+}
 
 export default function GameDetails({game}: GameDetailsProps) {
 const youtubeSearchQuery = encodeURIComponent(`${game.name} How to Play`);
 const learning = game.average_learning_complexity
 const strategy = game.average_strategy_complexity
+const imageUrl = game?.images?.large || "Sorry no image exists";
   return (
     <main>
       <div className="details-title-container">
         <h1 className="details-title">More Details about {game.name} ✨</h1>
       </div>
       <div className="game-details-container">
-        <img className="details-image" src={game.images.large} />
+        <img className="details-image" src={imageUrl} />
         <div className="details-desc-container">
           <p
             className="details-description"
@@ -71,19 +60,3 @@ const strategy = game.average_strategy_complexity
     </main>
   );
 }
-
-GameDetails.propTypes = {
-  game: PropTypes.shape({
-    name: PropTypes.string.isRequired,
-    images: PropTypes.shape({
-      large: PropTypes.string.isRequired,
-    }).isRequired,
-    description: PropTypes.string.isRequired,
-    price: PropTypes.string.isRequired,
-    year_published: PropTypes.number.isRequired,
-    min_players: PropTypes.number.isRequired,
-    max_players: PropTypes.number.isRequired,
-    average_learning_complexity: PropTypes.number,
-    average_strategy_complexity: PropTypes.number,
-  }).isRequired,
-};
