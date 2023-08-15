@@ -4,9 +4,9 @@
 
 Welcome to 👾 Games For Geeks 👾, a web application developed within a mere four days for all my fellow indecisive board game lovers. I designed this app in aims to simplify the process of game selection, allowing users to effortlessly browse, explore, and delve into the intricate details of various games. This app transforms game night into a seamless and enjoyable experience.
 
-The user-friendly interface allows for easy game selection based on specific events or preferences. Moreover, user's are able to store and manipulation data by favoriting games of interest, modifying, and viewing their selected games as desired. In addition, if you want more details about a game you can click on the individual card and be taken to another page with comprehensive information and even a link to a YouTube video tutorial, ensuring that users grasp the rules and gameplay mechanics before diving into the game.
+The user-friendly interface allows for easy game selection based on specific events or preferences. Moreover, user's are able to store and manipulate data by favoriting games of interest, modifying, and viewing their selected games as desired. In addition, if you want more details about a game you can click on the individual card and be taken to another page with comprehensive information and even a link to a YouTube video tutorial, ensuring that users grasp the rules and gameplay mechanics before diving into the game.
 
-During this project, I challenged myself to build a responsive React application in a short deadline with using React, Router, Asynchronous Javascript, and end to end testing with Cypress.
+During this project, I challenged myself to build a responsive React application in a short deadline with using React, Router, TypeScript, and end to end testing with Cypress.
 
 ---
 ## Deployed Link:
