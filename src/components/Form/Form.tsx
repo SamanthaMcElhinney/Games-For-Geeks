@@ -9,10 +9,15 @@ interface FormProps {
 const Form: React.FC<FormProps> = ({ onSearch }) => {
   console.log("Form component loaded");
   const [boardGame, setBoardGame] = useState("");
+  const [errorMessage, setErrorMessage] = useState("")
   const history = useHistory()
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+ if (!boardGame.trim()) {
+   setErrorMessage("Please enter a game to search for."); 
+   return;
+ }
     onSearch(boardGame)
     history.push("./ind-games")
   };
@@ -27,6 +32,7 @@ const Form: React.FC<FormProps> = ({ onSearch }) => {
         value={boardGame}
         onChange={(event) => setBoardGame(event.target.value)}
       ></input>
+      {errorMessage && <p className="error-message">{errorMessage}</p>} /
     </form>
   );
 };
